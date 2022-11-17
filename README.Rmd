@@ -1,0 +1,16 @@
+---
+title: "Overview of SEDNA users' scripts and workflows"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+Who is doing what?
+
+
+
