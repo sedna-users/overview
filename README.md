@@ -1,13 +1,24 @@
 Overview of SEDNA users’ scripts and workflows
 ================
 
-Who is doing what?
+## Who is doing what?
 
 ### Phil Morin:
 
 - reference-based genome assembly, genome-wide heterozygosity,
   historical demography (PSMC), genome characterization (BUSCO, QUAST),
   mitogenome assembly (reference based, de novo).
+
+### Eric Anderson
+
+- lcWGS workflows for trimming, mapping, variant calling with GATK, and also using
+  the indels discovered therein to do indel realignment on overlap-clipped BAM files
+  to make BAMs ready for ANGSD processing.
+- microhaplotype genotyping.
+- Association with ANGSD.
+- Population assignment/GSI with genotype likelihoods.
+
+
 
 ## Bionformatic Topics
 
