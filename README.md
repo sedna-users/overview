@@ -41,15 +41,16 @@ Who is doing what?
 
 ### Making a FASTA file of ancestral bases
 
-Such a FASTA file is something that ANGSD requires when you want to
-polarize allele frequency spectra as derived and ancestral. One way to
-do it is to use the sequence of a closely related species (like using
-chimpanzee bases as the ancestral ones for human—as done in the ANGSD
-examples). The probably is that the ancestral sequence has to be
-perfectly concordant (in terms of number of bases, etc) with your focal
-species reference genome. This involves a fair bit of aligning and
-post-processing. There must be an easier way to do this, but here is one
-solution: <https://github.com/eriqande/make-ancestral-fasta-snakeflow>
+- Such a FASTA file is something that ANGSD requires when you want to
+  polarize allele frequency spectra as derived and ancestral. One way to
+  do it is to use the sequence of a closely related species (like using
+  chimpanzee bases as the ancestral ones for human—as done in the ANGSD
+  examples). The probably is that the ancestral sequence has to be
+  perfectly concordant (in terms of number of bases, etc) with your
+  focal species reference genome. This involves a fair bit of aligning
+  and post-processing. There must be an easier way to do this, but here
+  is one solution:
+  <https://github.com/eriqande/make-ancestral-fasta-snakeflow>
 
 ### Visualizing Missing data in RAD seq data, etc
 
@@ -57,6 +58,13 @@ solution: <https://github.com/eriqande/make-ancestral-fasta-snakeflow>
   quickly generate some summaries of missing data in individuals and at
   different loci. It also provides an interface to SNPRelate for PCAs
   and calculating Fst. <https://github.com/eriqande/genoscapeRtools>.
+
+### Bioinformatically useful R packages
+
+- ecaRbioinf: A few useful functions in a package:
+  - Repo: <https://github.com/eriqande/ecaRbioinf>
+  - Online function reference:
+    <https://eriqande.github.io/ecaRbioinf/reference/index.html>
 
 ## Using SEDNA topics
 
