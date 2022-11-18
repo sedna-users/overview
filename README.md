@@ -20,6 +20,10 @@ Who is doing what?
   (ANGSD, R):
   <https://github.com/PAMorin/Genome_wide_heterozygosity_ANGSD>
 
+### SNP discovery from single and multiplex genome assemblies
+
+- Scripts from Morin et al. 2018, SNP discovery from single and multiplex genome assemblies of non-model organisms. In: Head, S.R., Ordoukhanian, P., Salomon, D. (Eds.), Next-Generation Sequencing. Methods in Molecular Biology. Humana Press, pp. 113-144.: https://github.com/PAMorin/SNPdiscovery
+
 ### Microhaplotype genotyping
 
 - The SWFSC MEGA Microhaplotype workflow:
