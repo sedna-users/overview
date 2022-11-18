@@ -3,12 +3,22 @@ Overview of SEDNA users’ scripts and workflows
 
 Who is doing what?
 
+### Phil Morin:
+
+- reference-based genome assembly, genome-wide heterozygosity,
+  historical demography (PSMC), genome characterization (BUSCO, QUAST),
+  mitogenome assembly (reference based, de novo).
+
 ## Bionformatic Topics
 
 ### Whole Genome Sequencing:
 
 - Eric Anderson’s whole genome sequencing workflow for non-model
   organisms: <https://github.com/eriqande/mega-non-model-wgs-snakeflow>
+
+- Phil Morin’s genome-wide heterozygosity, 1MB non-overlapping windows
+  (ANGSD, R):
+  <https://github.com/PAMorin/Genome_wide_heterozygosity_ANGSD>
 
 ### Microhaplotype genotyping
 
