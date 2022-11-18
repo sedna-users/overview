@@ -24,8 +24,10 @@ Overview of SEDNA users’ scripts and workflows
 
 ### Whole Genome Sequencing:
 
-- Eric Anderson’s whole genome sequencing workflow for non-model
-  organisms: <https://github.com/eriqande/mega-non-model-wgs-snakeflow>
+- Eric Anderson’s Snakemake-based whole genome sequencing workflow for non-model
+  organisms. (FastQC, Trimmomatic, bwa mem, MarkDuplicates, HaplotypeCaller, GenotypeGVCFs to get a BCF file,
+  then bamutils clipOveraps and GATK 3.8 Indel Realignment to produce ANGSD-ready
+  BAMs a al Nicolas Lou, Nina Therkildsen, et al. <https://github.com/eriqande/mega-non-model-wgs-snakeflow>
 
 - Phil Morin’s genome-wide heterozygosity, 1MB non-overlapping windows
   (ANGSD, R):
