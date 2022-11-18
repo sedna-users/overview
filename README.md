@@ -51,6 +51,13 @@ species reference genome. This involves a fair bit of aligning and
 post-processing. There must be an easier way to do this, but here is one
 solution: <https://github.com/eriqande/make-ancestral-fasta-snakeflow>
 
+### Visualizing Missing data in RAD seq data, etc
+
+- A simple R package that uses 012 files and some compiled code to
+  quickly generate some summaries of missing data in individuals and at
+  different loci. It also provides an interface to SNPRelate for PCAs
+  and calculating Fst. <https://github.com/eriqande/genoscapeRtools>.
+
 ## Using SEDNA topics
 
 ### Work interactively from your local RStudio on SEDNA’s R
