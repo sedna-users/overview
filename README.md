@@ -86,6 +86,10 @@ Overview of SEDNA users’ scripts and workflows
   different loci. It also provides an interface to SNPRelate for PCAs
   and calculating Fst. <https://github.com/eriqande/genoscapeRtools>.
 
+### Historical demography from a single genome (PSMC)
+
+- bash script to generate a consensus diploid genome from a bam file, and run PSMC (plus bootstrap) for historical demography. https://github.com/PAMorin/PSMC_boostrap_231122
+
 ### Bioinformatically useful R packages
 
 - ecaRbioinf: A few useful functions in a package:
