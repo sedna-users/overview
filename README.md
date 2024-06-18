@@ -48,6 +48,12 @@ Overview of SEDNA users’ scripts and workflows
   moment):
   <https://github.com/eriqande/mega-post-bcf-exploratory-snakeflows>
 
+### Computing Pairwise Fst from lcWGS data using ANGSD and winsfs
+
+- Eric put this together and the folks in the MEGA have used it for a number
+  of species/projects.:
+  <https://github.com/eriqande/mega-lcwgs-pw-fst-snakeflow>
+  
 ### Phase chromosomes of WGS data
 
 - Eric threw <https://github.com/eriqande/phase-chromosomes-snakeflow>
@@ -55,6 +61,14 @@ Overview of SEDNA users’ scripts and workflows
   coverage data for use with Leo Speidel’s RELATE program, that takes
   phased variant data to infer genealogies and then do inference from
   them.
+
+### Population assignment from lcWGS data
+
+- Eric collaborated with Matt DeSaix at Colorado State University to put
+  this together.
+  - repo: <https://github.com/mgdesaix/WGSassign>
+  - methods paper: <https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14286>
+  - application in redstarts: <https://onlinelibrary.wiley.com/doi/full/10.1111/mec.17137>
 
 ### Annotating with SnpEff from a GFF file
 
